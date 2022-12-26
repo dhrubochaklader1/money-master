@@ -1,0 +1,43 @@
+#main-head {
+    text-align: center;
+}
+
+input {
+    display: inline-block;
+    background-color: bisque;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section {
+    text-align: center;
+    color: black;
+}
+
+#percent {
+    display: inline-block;
+    background-color: aqua;
+    width: 100px;
+    /* padding-left: 25px;
+    padding-right: 25px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+button {
+    background-color: bisque;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.cost {
+    font-size: 35px;
+}

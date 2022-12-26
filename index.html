@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saving Calculate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="main-head">Money Master</h1>
+    <section>
+        <div>
+            <h3>Income</h3>
+            <span class="cost">Total Income</span>: <input required class="one" id="total-income-id"
+                placeholder="Enter your Income" type="text">
+            <h2>Expenses</h2>
+            <span class="cost">Food</span>: <input class="one" id="food-id" placeholder="Enter your food cost"
+                type="text"><br><br>
+            <span class="cost one">Rent</span>: <input class="one" id="rent-id" placeholder="Enter your rent cost"
+                type="text"><br><br>
+            <span class="cost">Clothes</span>: <input class="one" id="clothes-id" placeholder="Enter your clothes cost"
+                type="text"><br><br>
+            <button id="calculate-btn">Calculate</button>
+            <h1>Total Expenses: <span class="two" id="total-expense">0</span></h1>
+            <h1>Balance: <span class="two" id="balance-field">0</span></h1>
+            <span class="cost">Save</span>: <span id="save-amount">20</span> % <button id="balance-save">Save</button>
+            <h1>Saving Amount <span class="two" id="saving-balance">0</span></h1>
+            <h1>Remaining Balance <span class="two" id="remaining-balance">0</span></h1>
+            <button id="reset">Reset</button>
+        </div>
+    </section>
+    <script src="js/money.js"></script>
+</body>
+
+</html>
